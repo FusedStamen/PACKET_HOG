@@ -23,10 +23,6 @@ Built deliberately barebones with power distribution, node bank, antenna breakou
 | Single-node scanning | Tested (via other builds — Piglet C5, Signal Sleuth) |
 | Multi-node coordination | In dev |
 
-## Firmware
-
-Firmware is not yet public. It will be added here once it's actually working end to end, not before.
-
 ## License
 
 Licensed under **CC BY-NC 4.0** - see [LICENSE](./LICENSE) for full terms.
