@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32-C5-Board")(type "KiCad")(uri "E:/Ki-CAD/Projects/ESP32-C5-Board/ESP32-C5-Board.pretty")(options "")(descr ""))
+)

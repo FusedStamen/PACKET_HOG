@@ -1,0 +1,155 @@
+(footprint "XIAO-ESP32-C5-TH"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "XIAO ESP32-C5 through-hole header socket footprint, 2x7 2.54mm pitch, 15.24mm row spacing")
+  (tags "XIAO ESP32-C5 header through-hole DIP")
+
+  (property "Reference" "REF**" (at 0 -10 0)
+    (layer "F.SilkS")
+    (uuid "51817e6c-a659-466c-ac89-79bc84f8c639")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "XIAO-ESP32-C5-TH" (at 0 10 0)
+    (layer "F.Fab")
+    (uuid "e1e7134c-5ffe-4f06-bdb8-a04172209823")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "c91e843c-5948-436d-ac1a-a95d1dc6559a")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -9 -9)
+    (end 9 9)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "5cd72a9e-c841-461b-9e32-e6ece6527e49")
+  )
+
+  (fp_rect
+    (start -8.5 -8.5)
+    (end 8.5 8.5)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "8c201403-4493-494f-a5ff-fa7e156703c8")
+  )
+
+  (pad "1" thru_hole circle
+    (at 7.62 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "bbe662db-0135-49cf-bd0e-7b5d7ca04f68")
+  )
+
+  (pad "2" thru_hole circle
+    (at 5.08 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "b819151c-3321-43de-9d9f-e86d789782a9")
+  )
+
+  (pad "3" thru_hole circle
+    (at 2.54 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "19174ec0-ba68-4662-95f2-878825e8a9c4")
+  )
+
+  (pad "4" thru_hole circle
+    (at 0 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "e8342993-a6cf-46a7-8de5-b8e0d7cb87cf")
+  )
+
+  (pad "5" thru_hole circle
+    (at -2.54 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "3bc67e7e-6f70-4f30-bdc3-db815467b3f9")
+  )
+
+  (pad "6" thru_hole circle
+    (at -5.08 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "9198b282-8f6f-4f14-ad68-ce8ac7c53e64")
+  )
+
+  (pad "7" thru_hole rect
+    (at -7.62 -7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "1c667129-c276-42e8-918e-5312d93f6d27")
+  )
+
+  (pad "8" thru_hole rect
+    (at -7.62 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "48ae78ed-5b7b-427d-8d6b-fe6801964760")
+  )
+
+  (pad "9" thru_hole circle
+    (at -5.08 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "a8f1b489-a392-4ea5-a8b3-81a2726d39e8")
+  )
+
+  (pad "10" thru_hole circle
+    (at -2.54 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "f62602dc-1350-4b3e-8926-f7eb717aefae")
+  )
+
+  (pad "11" thru_hole circle
+    (at 0 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "517b60c6-dc6b-4eb0-8f54-212edc496661")
+  )
+
+  (pad "12" thru_hole circle
+    (at 2.54 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "58b3afda-88b4-4574-8c16-58ff70a958c1")
+  )
+
+  (pad "13" thru_hole circle
+    (at 5.08 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "86f770f0-27cc-4d8a-992d-25ca0a750664")
+  )
+
+  (pad "14" thru_hole circle
+    (at 7.62 7.62)
+    (size 1.7 1.7)
+    (drill 1)
+    (layers "*.Cu" "*.Mask")
+    (uuid "44699beb-415b-41ac-99e9-ea771147288e")
+  )
+
+)

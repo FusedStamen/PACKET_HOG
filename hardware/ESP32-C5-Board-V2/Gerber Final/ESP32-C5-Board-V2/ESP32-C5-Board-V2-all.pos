@@ -1,0 +1,39 @@
+### Footprint positions - created on 2026-06-11T20:55:09 ###
+### Printed by KiCad version 10.0.3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                           Package                                                       PosX       PosY       Rot  Side
+J1        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                          84.0000   -54.5000  180.0000  bottom
+J2        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         112.0000   -54.5000  180.0000  bottom
+J3        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         140.0000   -54.5000  180.0000  bottom
+J4        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         168.0000   -54.5000  180.0000  bottom
+J5        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                          84.0000   -80.5000  180.0000  bottom
+J6        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         112.0000   -80.5000  180.0000  bottom
+J7        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         140.0000   -80.5000  180.0000  bottom
+J8        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         168.0000   -80.5000  180.0000  bottom
+J9        XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                          84.0000  -106.5000  180.0000  bottom
+J10       XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         112.0000  -106.5000  180.0000  bottom
+J11       XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         140.0000  -106.5000  180.0000  bottom
+J12       XIAO-ESP32-C5                 XIAO-ESP32-C5-DIP                                         168.0000  -106.5000  180.0000  bottom
+J14       FAN                           PinHeader_1x02_P2.54mm_Vertical                            83.0000  -132.4600  180.0000  bottom
+MH1       MountingHole_3.2mm            MountingHole_3.2mm                                         58.5000   -34.0000  180.0000  bottom
+MH2       MountingHole_3.2mm            MountingHole_3.2mm                                        184.0000   -34.0000  180.0000  bottom
+MH3       MountingHole_3.2mm            MountingHole_3.2mm                                         59.0000  -144.5000  180.0000  bottom
+MH4       MountingHole_3.2mm            MountingHole_3.2mm                                        184.5000  -145.0000  180.0000  bottom
+C1        100nF                         C_0805_2012Metric                                         115.5000  -130.0500  -90.0000  top
+C2        10uF                          C_0402_1005Metric                                         111.0000  -129.5200  -90.0000  top
+J13       USB_C_PWR_IN                  USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal   121.5000  -144.0000    0.0000  top
+SMA01     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                               80.9700   -35.0000    0.0000  top
+SMA02     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                              107.9900   -35.0000    0.0000  top
+SMA03     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                              135.0100   -35.0000    0.0000  top
+SMA04     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                              162.0300   -35.0000    0.0000  top
+SMA05     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                               60.0000   -53.4700    0.0000  top
+SMA06     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                               60.0000   -77.4900    0.0000  top
+SMA07     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                              183.0000   -53.4700    0.0000  top
+SMA08     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                              183.0000   -77.4900    0.0000  top
+SMA09     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                               60.0000  -101.5100    0.0000  top
+SMA10     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                               60.0000  -125.5300    0.0000  top
+SMA11     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                              183.0000  -101.5100    0.0000  top
+SMA12     SMA_Amphenol_132291_Vertical  SMA_Amphenol_132291_Vertical                              183.0000  -125.5300    0.0000  top
+U1        CH224K                        CH224K_ESSOP-10                                           121.7500  -131.0000    0.0000  top
+## End

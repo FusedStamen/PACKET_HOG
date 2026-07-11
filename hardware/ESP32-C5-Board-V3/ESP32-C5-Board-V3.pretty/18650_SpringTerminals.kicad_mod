@@ -1,0 +1,68 @@
+(footprint "18650_SpringTerminals"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "18650 Li-Ion cell spring contact PTH terminals, 65mm spacing. Cell sits in PCB slot below board.")
+  (tags "battery 18650 spring terminal PTH")
+
+  (property "Reference" "REF**" (at 0 -12 0)
+    (layer "F.SilkS")
+    (uuid "5304e2fa-41a3-4ea8-88cd-347f52b30578")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "18650_SpringTerminals" (at 0 12 0)
+    (layer "F.Fab")
+    (uuid "2b4fec0b-ce09-4769-8077-802f37a7553a")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "e1837649-717c-4d13-a4d3-1f17c39cbfb6")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -35.5 -10.5)
+    (end 35.5 10.5)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "c543acf1-b335-4564-a4dc-51794a9ab608")
+  )
+
+  (fp_rect
+    (start -35 -10)
+    (end 35 10)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "a2369b2e-5070-4ad0-8484-6b841066a44c")
+  )
+
+  (fp_rect
+    (start -32.5 -9.25)
+    (end 32.5 9.25)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "d3362aba-3b26-412d-a67a-df42fa88fd03")
+  )
+
+  (pad "1" thru_hole circle
+    (at -32.5 0)
+    (size 3 3)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "4ee543d5-d068-4b40-9248-9c174309abee")
+  )
+
+  (pad "2" thru_hole circle
+    (at 32.5 0)
+    (size 3 3)
+    (drill 1.5)
+    (layers "*.Cu" "*.Mask")
+    (uuid "9dc6366a-d588-44cb-a850-8f00de8d9f89")
+  )
+
+)
