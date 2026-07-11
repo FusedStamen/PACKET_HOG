@@ -1,0 +1,9 @@
+value,footprint,quantity,references
+10k,Resistor_SMD:R_0402_1005Metric,3,"['R1', 'R2', 'R3']"
+FAN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1,['J14']
+100nF,Capacitor_SMD:C_0402_1005Metric,1,['C1']
+XIAO-ESP32-C5,XIAO_ESP32:XIAO-ESP32-C5-DIP,12,"['J1', 'J12', 'J4', 'J8', 'J2', 'J10', 'J6', 'J9', 'J3', 'J11', 'J5', 'J7']"
+MountingHole_3.2mm,MountingHole:MountingHole_3.2mm,4,"['MH1', 'MH3', 'MH4', 'MH2']"
+10uF,Capacitor_SMD:C_0402_1005Metric,1,['C2']
+USB_C_PWR_IN,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,['J13']
+CH224K,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,1,['U1']

@@ -1,0 +1,138 @@
+(footprint "CH224K_ESSOP-10"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "CH224K USB PD Sink Controller, ESSOP-10, 3.9x4.9mm, 1mm pitch")
+  (tags "CH224K USB PD ESSOP-10 SMD")
+
+  (property "Reference" "REF**" (at 0 -3.3 0)
+    (layer "F.SilkS")
+    (uuid "acc43840-4523-4a51-91b3-748207a8fb36")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "CH224K_ESSOP-10" (at 0 3.3 0)
+    (layer "F.Fab")
+    (uuid "534be3ba-d4a5-4f9f-96fd-592f3058854c")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "df4006bb-b594-496e-8fbe-d3abd4de388d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -3.65 -2.7)
+    (end 3.65 2.7)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "eea682d8-cc1c-4433-99fe-08b9c9000d11")
+  )
+
+  (fp_rect
+    (start -1.95 -2.45)
+    (end 1.95 2.45)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "74bfd7f3-89a6-4c31-8f5a-2bfddac2247a")
+  )
+
+  (fp_rect
+    (start -1.95 -2.45)
+    (end 1.95 2.45)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "cae5b44e-6340-4e3d-9ca1-9eec747cc3fb")
+  )
+
+  (pad "1" smd rect
+    (at -2.75 -2)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "6d1e37d6-421b-4043-bfd7-1c06986a1fe7")
+  )
+
+  (pad "2" smd roundrect
+    (at -2.75 -1)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "ce4aa83b-ebfa-4ea5-81f8-fe73253dc273")
+  )
+
+  (pad "3" smd roundrect
+    (at -2.75 0)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "9d8a0ed7-5662-4aa0-8372-fc968442e648")
+  )
+
+  (pad "4" smd roundrect
+    (at -2.75 1)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "8ced4232-75de-4665-9057-f7563aa44e39")
+  )
+
+  (pad "5" smd roundrect
+    (at -2.75 2)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "ed675484-2768-4795-ab83-2b2c0e9ee3a1")
+  )
+
+  (pad "6" smd roundrect
+    (at 2.75 2)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "e1bbd542-93b4-4e8f-b9e5-30a5176d5f0d")
+  )
+
+  (pad "7" smd roundrect
+    (at 2.75 1)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "d116fb61-ac51-4140-8938-c69ddec20497")
+  )
+
+  (pad "8" smd roundrect
+    (at 2.75 0)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "0ee5ef1b-3393-48a2-bb68-89761a02c6a9")
+  )
+
+  (pad "9" smd roundrect
+    (at 2.75 -1)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "c2f98096-e490-4fec-964c-423187a3cb20")
+  )
+
+  (pad "10" smd roundrect
+    (at 2.75 -2)
+    (size 1.7 0.55)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (roundrect_rratio 0.25)
+    (uuid "82ee08ac-f677-458b-b64b-9f8e7f6bb65e")
+  )
+
+  (pad "0" smd rect
+    (at 0 0)
+    (size 2.1 3.3)
+    (layers "F.Cu" "F.Paste" "F.Mask")
+    (uuid "53f481af-f34f-4e60-b35d-fb19b8120fa3")
+  )
+
+)

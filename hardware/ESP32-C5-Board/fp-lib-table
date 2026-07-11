@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32-C5-Board")(type "KiCad")(uri "E:/Ki-CAD/Projects/ESP32-C5-Board/ESP32-C5-Board.pretty")(options "")(descr ""))
+  (lib (name "Connector_Coaxial")(type "KiCad")(uri "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_Coaxial.pretty")(options "")(descr ""))
+)
