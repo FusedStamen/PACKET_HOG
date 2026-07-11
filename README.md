@@ -2,7 +2,7 @@
 
 10-node ESP32-C5 scanner carrier board. One master, a bank of scan nodes, single USB-C power in.
 
-Status: **IN DEV** - V4 prototypes in testing. Nothing here is validated for production yet, and nothing is for sale.
+Status: **IN DEV** - V5 prototypes in testing. Nothing here is validated for production yet, and nothing is for sale.
 
 ## What it is
 
