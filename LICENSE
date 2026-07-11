@@ -1,0 +1,55 @@
+Packet Hog C5 — Hardware Design Files and Documentation
+Copyright (c) 2026 FusedStamen
+
+This work is licensed under the Creative Commons Attribution-NonCommercial
+4.0 International License (CC BY-NC 4.0).
+
+You should have received a copy of the full license text along with this
+work. If not, see:
+
+    https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+A human-readable summary of the license (not a substitute for the full
+legal text above) is available at:
+
+    https://creativecommons.org/licenses/by-nc/4.0/
+
+--------------------------------------------------------------------------
+PLAIN-LANGUAGE SUMMARY OF INTENT (for clarity — the full legal text above
+governs)
+--------------------------------------------------------------------------
+
+You are free to:
+
+  - View, download, and study these files
+  - Build this board for your own personal, non-commercial use
+  - Modify the design for your own personal, non-commercial use
+  - Share unmodified copies of these files, with attribution
+
+You may NOT, without first getting explicit written permission from me
+(FusedStamen) personally:
+
+  - Sell boards, kits, or assembled units built from this design, in
+    whole or in part
+  - Sell any product, service, or derivative that incorporates this
+    design or a modified version of it
+  - Use this design or any derivative of it for any commercial purpose
+
+If you want to sell something based on this design, or use it
+commercially in any way, you must contact me first and get explicit
+permission. Permission is granted or denied at my discretion and is not
+automatic. Do not assume permission because you asked — wait for an
+explicit yes.
+
+Contact: Discord: Fusedstamen
+	 GitHub:  Github.com/FusedStamen
+
+Attribution required for any permitted use: credit "FusedStamen" and
+link back to the original repository.
+
+--------------------------------------------------------------------------
+
+This plain-language summary is provided for convenience only and is not
+a substitute for the full CC BY-NC 4.0 legal code linked above, which is
+the binding license. In the event of any conflict between this summary
+and the full legal text, the full legal text controls.
