@@ -1,0 +1,10 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "XIAO_ESP32C5") (type "KiCad") (uri "E:/Ki-CAD/Footprint Library/XIAO_ESP32C5.pretty") (options "") (descr ""))
+	(lib (name "Connector_Coaxial") (type "KiCad") (uri "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_Coaxial.pretty") (options "") (descr ""))
+	(lib (name "Connector_USB") (type "KiCad") (uri "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_USB.pretty") (options "") (descr ""))
+	(lib (name "Resistor_SMD") (type "KiCad") (uri "C:/Program Files/KiCad/10.0/share/kicad/footprints/Resistor_SMD.pretty") (options "") (descr ""))
+	(lib (name "Connector_PinSocket_2.54mm") (type "KiCad") (uri "C:/Program Files/KiCad/10.0/share/kicad/footprints/Connector_PinSocket_2.54mm.pretty") (options "") (descr ""))
+	(lib (name "ESP32-C5-Board-V5") (type "KiCad") (uri "E:/Ki-CAD/Projects/ESP32-C5-Board-V5-SMA.pretty") (options "") (descr ""))
+	(lib (name "kicad-footprints-5.1.7") (type "KiCad") (uri "E:/Ki-CAD/Footprint Library/kicad-footprints-5.1.7") (options "") (descr ""))
+)

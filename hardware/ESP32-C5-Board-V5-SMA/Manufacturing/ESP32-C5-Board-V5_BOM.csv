@@ -1,0 +1,10 @@
+value,footprint,quantity,references
+10uF,Capacitor_SMD:C_0603_1608Metric,10,"['C6', 'C7', 'C8', 'C9', 'C10', 'C11', 'C12', 'C13', 'C14', 'C15']"
+SMA_Amphenol_132134-14_Vertical,Connector_Coaxial:SMA_Amphenol_132134-14_Vertical,10,"['J6', 'J8', 'J5', 'J10', 'J2', 'J3', 'J9', 'J1', 'J4', 'J7']"
+PinSocket_1x07_P2.54mm_Vertical,Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical,20,"['H10A', 'H4B', 'H6A', 'H1B', 'H9A', 'H4A', 'H9B', 'H3B', 'H5B', 'H3A', 'H7A', 'H8A', 'H1A', 'H6B', 'H2A', 'H8B', 'H7B', 'H2B', 'H5A', 'H10B']"
+5.1k,Resistor_SMD:R_0603_1608Metric,2,"['R1', 'R2']"
+1uF,Capacitor_SMD:C_0603_1608Metric,6,"['C16', 'C3', 'C17', 'C2', 'C5', 'C18']"
+Fuse_1206_3216Metric,Fuse:Fuse_1206_3216Metric,1,['F1']
+USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,['J11']
+CP_Elec_6.3x5.4,Capacitor_SMD:CP_Elec_6.3x5.4,2,"['C1', 'C4']"
+D_SOD-123,Diode_SMD:D_SOD-123,1,['D1']

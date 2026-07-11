@@ -1,0 +1,12 @@
+{
+  "board": "E:\\Ki-CAD\\Projects\\ESP32-C5-Board-V5\\ESP32-C5-Board-V5.kicad_pcb",
+  "timestamp": "2026-07-04T00:26:38",
+  "total_violations": 0,
+  "violation_counts": {},
+  "severity_counts": {
+    "error": 0,
+    "warning": 0,
+    "info": 0
+  },
+  "violations": []
+}
