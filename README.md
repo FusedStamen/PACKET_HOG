@@ -21,7 +21,7 @@ Built deliberately barebones with power distribution, node bank, antenna breakou
 |---|---|
 | Power distribution (V4) | Tested |
 | Single-node scanning | Tested (via other builds — Piglet C5, Signal Sleuth) |
-| Multi-node coordination / firmware | In dev |
+| Multi-node coordination | In dev |
 
 ## Firmware
 
