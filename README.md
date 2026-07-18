@@ -8,7 +8,7 @@ Status: **IN DEV** - V6 boards ordered (small batch), pending arrival and testin
 
 Packet Hog C5 is a carrier board built around the Seeed XIAO ESP32-C5. One master node coordinates a bank of scanner nodes over ESP-NOW, each scanning dual-band Wi-Fi (2.4/5 GHz) and BLE. The whole array runs off a single USB-C input.
 
-Built deliberately barebones with power distribution, node bank, antenna breakout, nothing else. I aim to ensure the core idea gets proven before anything gets added on top of it.
+Built deliberately barebones with power distribution, node bank, antenna breakout, nothing else.
 
 ## Version history
 
