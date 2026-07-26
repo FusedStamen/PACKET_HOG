@@ -16,7 +16,8 @@ Built deliberately barebones with power distribution, node bank, antenna breakou
 - **V4** - CH224K removed entirely; replaced with 5.1kΩ pull-down resistors on CC1/CC2, forcing 5V-default behavior regardless of charger. Also added reverse-polarity protection, a fuse at the power input, bulk + per-node decoupling capacitors, and 10 edge-mounted SMA connectors for external antennas.
 - **V5** - Carried V4's power design forward. Had a layout flaw: SMA connector mounts sat too close to the header pins, leaving insufficient clearance to hand-solder/route pigtail connections without crowding the header footprints. Also shipped without mounting holes, so boards couldn't be securely fastened into a case.
 - **V6** - Current revision. Fixes V5's clearance flaw by widening the board (77.1mm → 121.1mm) to give proper spacing between the SMA connectors and the header rows. Added M3 mounting holes (missing on V5). Rounded board corners. SMA connectors remain hand-soldered (not PCBA-populated). Small batch (10 boards) ordered for real-world testing.
-
+- **V7** - Next planned revision. Reduce board size by adding on board (PCBA-populated) SMA connections utilizing U.FL jumper connections.
+  
 ## Status of what's tested
 
 | Component | Status |
