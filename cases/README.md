@@ -9,7 +9,7 @@ separately.
 
 ## V5 Case (SMA-on-case / pigtail version)
 
-The V5 case uses **separate** board standoffs and lid bosses — the board is
+The V5 case uses **separate** board standoffs and lid bosses - the board is
 fastened down independently of the lid.
 
 | Item | Spec | Qty | Notes |
