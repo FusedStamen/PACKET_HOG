@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C4",CP_Elec_6.3x5.4,2,CP_Elec_6.3x5.4,
+"C10, C11, C12, C13, C14, C15, C6, C7, C8, C9",0603,10,10uF,
+"C16, C17, C18, C2, C3, C5",0603,6,1uF,
+D1,D_SMB,1,D_SMB,
+F1,1206,1,Fuse_1206_3216Metric,
+"H10A, H10B, H1A, H1B, H2A, H2B, H3A, H3B, H4A, H4B, H5A, H5B, H6A, H6B, H7A, H7B, H8A, H8B, H9A, H9B",PinSocket_1x07_P2.54mm_Vertical,20,PinSocket_1x07_P2.54mm_Vertical,
+"J1, J10, J2, J3, J4, J5, J6, J7, J8, J9",SMA_BAT_Wireless_BWSMA-KWE-Z001,10,SMA_BAT_Wireless_BWSMA-KWE-Z001,
+J11,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,1,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,
+"R1, R2",0603,2,5.1k,
