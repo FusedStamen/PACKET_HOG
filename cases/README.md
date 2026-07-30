@@ -7,30 +7,9 @@ separately.
 
 ---
 
-## V5 Case (SMA-on-case / pigtail version)
+## V1 Case (board-mounted SMA version)
 
-The V5 case uses **separate** board standoffs and lid bosses - the board is
-fastened down independently of the lid.
-
-| Item | Spec | Qty | Notes |
-|---|---|---|---|
-| Board standoff insert | M3 × D5 × L3 heat-set insert | 4 | Presses into the 4 printed board standoffs |
-| Lid boss insert | M3 × D5 × L3 heat-set insert | 4 | Presses into the 4 printed lid bosses |
-| Board mounting screw | M3, ~6mm length | 4 | Through the PCB into the board standoff insert |
-| Lid mounting screw | M3, ~8mm length | 4 | Through the lid counterbore into the lid boss insert |
-
-**Case details:**
-- Wall thickness: 3mm
-- Wall height: 19mm (25mm total case height, sized to clear a mounted XIAO ESP32-C5 module)
-- 10 flush, hex-recessed SMA ports (5 per side), sized for standard SMA hardware
-- USB-C cutout
-- Lid has alignment tabs plus screw counterbores over each boss
-
----
-
-## V6 Case (board-mounted SMA version)
-
-The V6 case mounts the **lid straight through the board** into the same
+The V1 case mounts the **lid straight through the board** into the same
 standoffs that hold the board down — one screw per corner does both jobs.
 The board itself has no independent fastener; it's held in place by the SMA
 connector friction fit plus the tight (0.2mm) case-to-board clearance.
@@ -52,10 +31,3 @@ connector friction fit plus the tight (0.2mm) case-to-board clearance.
 > practical minimum; 10mm gives more thread engagement margin. Verify against
 > your actual printed parts before ordering in bulk.
 
----
-
-## Common across both
-
-- Insert type: standard brass heat-set threaded inserts (soldering-iron or heat-set-tool installed)
-- Screw drive: your preference (M3 socket-head or flat-head both work with the counterbore/pass-through geometry)
-- Recommended: test-fit inserts and screws on a single printed standoff before installing all 4, since insert bore diameter is print-tolerance sensitive
