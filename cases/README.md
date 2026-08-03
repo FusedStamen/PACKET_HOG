@@ -17,7 +17,7 @@ connector friction fit plus the tight (0.2mm) case-to-board clearance.
 | Item | Spec | Qty | Notes |
 |---|---|---|---|
 | Standoff insert | M3 × D5 × L4 heat-set insert | 4 | Presses into the 4 printed standoff bosses (9mm OD boss, sized for this insert) |
-| Combined mounting screw | M3, ~8-10mm length | 4 | Passes through lid → through board → into the standoff insert |
+| Combined mounting screw | M3, ~25mm length | 4 | Passes through lid → through board → into the standoff insert |
 
 **Case details:**
 - Wall thickness: 2mm
@@ -26,8 +26,4 @@ connector friction fit plus the tight (0.2mm) case-to-board clearance.
 - USB-C cutout: 7mm × 14mm
 - Lid includes 10 small tab plugs that seat into the open tops of the SMA slots when closed
 
-> **Screw length note:** the combined screw needs to span the lid (2mm) + PCB
-> (~1.5mm) + insert engagement (4mm) ≈ 7.5mm minimum. An 8mm screw is the
-> practical minimum; 10mm gives more thread engagement margin. Verify against
-> your actual printed parts before ordering in bulk.
 
