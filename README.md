@@ -18,13 +18,15 @@ PacketHog-V1, fully assembled: **$100**, first batch of 8, shipping to the US on
 
 Modules (Seeed XIAO ESP32-C5) and antennas not included. Outside the US, message me on Discord and we'll figure it out.
 
-**Note on the SMA connectors (J1-J10):** they're mounted to the board for physical support only — there's no PCB trace routing antenna signal to them. Each node module's signal reaches its SMA connector through a short U.FL-to-SMA pigtail from the module itself, not through the board's copper. Same setup as the Piglet, in case that's caused confusion before.
+**Note on the SMA connectors (J1-J10):** they're mounted to the board for physical support only - there's no PCB trace routing antenna signal to them. Each node module's signal reaches its SMA connector through a short U.FL-to-SMA pigtail from the module itself, not through the board's copper. Same setup as the Piglet, in case that's caused confusion before.
+
+**Mounting orientation:** every header position follows the same rule. Seat each XIAO module so its USB-C port faces the same side as the nearby capacitor (e.g. C11 sits next to the H1A/H1B pair) - that side matches the direction the onboard USB-C (J11) faces. The module's U.FL antenna pad ends up on the opposite side. Get this backwards and the module won't seat or power on correctly; double check before powering on.
 
 ## Version history
 
 - **Prototype 1** - First routed prototype. Had a wiring mistake around the CH224K USB-C PD negotiation chip: on a "smart" PD-negotiating charger, the board could get handed the wrong voltage, which risked damaging the nodes. Safe with plain 5V "dumb" chargers only.
 - **Prototype 2** - CH224K removed entirely; replaced with 5.1kΩ pull-down resistors on CC1/CC2, forcing 5V-default behavior regardless of charger. Also added reverse-polarity protection, a fuse at the power input, bulk + per-node decoupling capacitors, and 10 edge-mounted SMA connectors for external antennas. Had a layout flaw: SMA connector mounts sat too close to the header pins, leaving insufficient clearance to hand-solder/route pigtail connections without crowding the header footprints. Also shipped without mounting holes, so boards couldn't be securely fastened into a case.
-- **PacketHog-V1** - Current shipping revision. Fixes clearance flaw by widening the board (77.1mm → 121.1mm) to give proper spacing between the SMA connectors and the header rows. Added M3 mounting holes. Rounded board corners. SMA connectors remain hand-soldered (not PCBA-populated). Small batch (10 boards) ordered and built; tested and now shipping — see [Buy it](#buy-it) above.
+- **PacketHog-V1** - Current shipping revision. Fixes clearance flaw by widening the board (77.1mm → 121.1mm) to give proper spacing between the SMA connectors and the header rows. Added M3 mounting holes. Rounded board corners. SMA connectors remain hand-soldered (not PCBA-populated). Small batch (10 boards) ordered and built; tested and now shipping - see [Buy it](#buy-it) above.
 - **PacketHog-V2** - Next planned revision. Reduce board size by adding on board (PCBA-populated) SMA connections utilizing U.FL jumper connections.
   
 ## Status of what's tested
