@@ -45,6 +45,14 @@ Modules (Seeed XIAO ESP32-C5), antennas and fan not included. Outside the US, me
 | Fan case (30mm) | Complete, files in this repo |
 | Antenna path (module -> U.FL/SMA pigtail) | Tested |
 
+## Thermal notes
+
+I ran a thermal test on a V1 board in a closed case in a room at about 78F (25.5C). After 75+ minutes of running, the air inside the case levelled off around 96F (36C) and the nodes measured about 102-110F (39-43C) with a thermocouple. An IR thermometer read higher, 108-118F (42-48C), which is typical of IR on shiny surfaces, so treat the thermocouple numbers as the more reliable set. The test was on V1; V2 uses the same power parts with wider copper.
+
+For reference, Espressif rates the ESP32-C5 modules for an operating ambient temperature of -40C to 85C (185F). The Seeed XIAO ESP32-C5 board is listed at 0C to 85C. Nodes ran well inside that range in my test, so I don't think a fan is necessary. The fan header and fan case are there if you want extra airflow or plan to run in a hot environment, such as a car parked in the sun. Those limits are ambient ratings, so a very hot environment leaves less margin.
+
+Test data: [Packet_Hog-v1-Thermal_Testing.xlsx](./hardware/Packet_Hog-v1-Thermal_Testing.xlsx)
+
 ## License
 
 Licensed under **CC BY-NC 4.0** - see [LICENSE](./LICENSE) for full terms.
