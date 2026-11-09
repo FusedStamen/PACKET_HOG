@@ -10,6 +10,8 @@ Packet Hog C5 is a carrier board built around the Seeed XIAO ESP32-C5. One maste
 
 Built deliberately barebones with power distribution, node bank, antenna breakout, nothing else.
 
+Board size: 183.7mm x 121.1mm (7.23 x 4.77 in), 1.6mm thick. Standard case: 188.1mm x 125.5mm, about 29mm tall. Fan case: about 45.5mm tall.
+
 ## Buy it
 
 PacketHog-V2: **$100**, limited run, shipping to the US only right now. Same price for every option.
