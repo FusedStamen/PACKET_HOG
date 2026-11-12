@@ -14,7 +14,7 @@ Board size: 183.7mm x 121.1mm (7.23 x 4.77 in), 1.6mm thick. Standard case: 188.
 
 ## Buy it
 
-PacketHog-V2: **$100**, shipping to the US only right now. Same price for every option. **Currently sold out, restock ordered.**
+PacketHog-V2: **$100**, shipping to the US only right now. Same price for every option. **Currently sold out, restock ordered.** Restock alert signup: [tally.so/r/Z9Elga](https://tally.so/r/Z9Elga)
 
 [fusedstamen.com/packethogv2](https://fusedstamen.com/packethogv2)
 
