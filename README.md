@@ -2,7 +2,7 @@
 
 10-node ESP32-C5 scanner carrier board. One master, a bank of scan nodes, single USB-C power in.
 
-Status: **PacketHog-V2 is available (limited run).** V1 (first batch of 8) is sold out. Every V2 board is assembled and checked before it ships.
+Status: **PacketHog-V2 first batch is sold out. A restock order has been placed** (no firm arrival date, no preorders; the store page reopens when boards are in hand). V1 (first batch of 8) is also sold out. Every V2 board is assembled and checked before it ships.
 
 ## What it is
 
@@ -10,19 +10,23 @@ Packet Hog C5 is a carrier board built around the Seeed XIAO ESP32-C5. One maste
 
 Built deliberately barebones with power distribution, node bank, antenna breakout, nothing else.
 
-Board size: 183.7mm x 121.1mm (7.23 x 4.77 in), 1.6mm thick. 
-Standard case: 188.1mm x 125.5mm, about 29mm tall. 
-Fan case: about 45.5mm tall.
+Board size: 183.7mm x 121.1mm (7.23 x 4.77 in), 1.6mm thick. Standard case: 188.1mm x 125.5mm, about 29mm tall. Fan case: about 45.5mm tall.
 
 ## Buy it
 
-PacketHog-V2: **$100**, limited run, shipping to the US only right now. Same price for every option.
+PacketHog-V2: **$100**, shipping to the US only right now. Same price for every option. **Currently sold out, restock ordered.**
 
 [fusedstamen.com/packethogv2](https://fusedstamen.com/packethogv2)
 
-Option at checkout: soldered RP-SMA connectors, or bare board (as received from assembly, SMA positions empty). Every board comes with the standard printed case. A case with a 30mm fan opening is available to print from this repo if you want one.
+Options at checkout when available: soldered RP-SMA connectors, or bare board (as received from assembly, SMA positions empty). Every board comes with the standard printed case. A case with a 30mm fan opening is available to print from this repo if you want one. Name and Discord are optional at checkout; I only need a shipping address and email.
 
 Modules (Seeed XIAO ESP32-C5), antennas and fan not included. Outside the US, message me on Discord first - import VAT, duties and carrier fees are paid by the buyer on delivery.
+
+## Case hardware
+
+- Standard case: 4x M3x25 screws into M3 heat-set inserts.
+- Fan case lid: 4x M3x40 (about 2.5mm of thread engagement; use M3x45 if it feels loose).
+- Fan: 5V, 2-pin, 30mm. Check the fan thickness against the fan case. Fan screws are 2-4x M3x8 to M3x10 self-tapping. Specific fans are untested.
 
 **Note on the RP-SMA connectors (J1-J10):** they're mounted to the board for physical support only - there's no PCB trace routing antenna signal to them. Each node module's signal reaches its SMA connector through a short U.FL-to-RP-SMA pigtail from the module itself, not through the board's copper. Same setup as the Piglet, in case that's caused confusion before.
 
@@ -55,7 +59,7 @@ I ran a thermal test on a V1 board in a closed case in a room at about 78F (25.5
 
 For reference, Espressif rates the ESP32-C5 modules for an operating ambient temperature of -40C to 85C (185F). The Seeed XIAO ESP32-C5 board is listed at 0C to 85C. Nodes ran well inside that range in my test, so I don't think a fan is necessary. The fan header and fan case are there if you want extra airflow or plan to run in a hot environment, such as a car parked in the sun. Those limits are ambient ratings, so a very hot environment leaves less margin.
 
-Test data: [Packet_Hog-v1-Thermal_Testing.xlsx](./hardware/Packet_Hog-v1-Thermal_Testing.xlsx)
+Test data: [Packet_Hog-v1-Thermal_Testing.xlsx](./Packet_Hog-v1-Thermal_Testing.xlsx)
 
 ## License
 
